@@ -1,0 +1,21 @@
+#ifndef APP_CONFIG_H
+#define APP_CONFIG_H
+
+#include <stdint.h>
+
+#define APP_FW_VERSION_MAJOR 1u
+#define APP_FW_VERSION_MINOR 0u
+#define APP_FW_VERSION_PATCH 0u
+
+#define APP_EVENT_QUEUE_LEN   64u
+#define APP_LOG_QUEUE_LEN     128u
+
+#define CAN_RX_TIMEOUT_MS     200u
+#define METER_POLL_PERIOD_MS  1000u
+#define CLOUD_REPORT_MS       2000u
+
+#define CHARGING_MAX_VOLTAGE_MV  750000u
+#define CHARGING_MAX_CURRENT_MA  250000u
+#define CHARGING_MAX_TEMP_MC     85000
+
+#endif
