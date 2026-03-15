@@ -47,7 +47,7 @@ docs/
   INTERVIEW_GUIDE.md
 ```
 
-## 推荐任务优先级（数值越小优先级越高）
+## 推荐任务优先级（数值越大优先级越高）
 
 - `TaskSafety`：高优先级，保护逻辑与急停
 - `TaskCANRx`：高优先级，CAN 接收和协议分发
